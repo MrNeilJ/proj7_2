@@ -26,3 +26,24 @@ void Circle::setRadius(double r) {
     radius = r;
 }
 
+/*****************************************************************
+*                   Circle::calcArea                             *
+*   This function calculates and returns the Circle object's     *
+*   area. It does not need any parameters because it already has *
+*   access to the member variable radius                         *
+*****************************************************************/
+double Circle::calcArea() {
+    return 3.14 * pow(radius, 2);
+}
+
+/*****************************************************************
+*                   Main                                         *
+*****************************************************************/
+int main()
+{
+    Circle  circle1,            // Define 2 Circle objects
+            circle2;
+
+    circle1.setRadius(1);       // This sets circle1's radius to 1.0
+    circle2.setRadius(2.5);     // This sets circle2's radius to 2.5
+}
