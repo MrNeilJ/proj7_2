@@ -46,4 +46,9 @@ int main()
 
     circle1.setRadius(1);       // This sets circle1's radius to 1.0
     circle2.setRadius(2.5);     // This sets circle2's radius to 2.5
+
+    std::cout << "The area of circle1 is " << circle1.calcArea() << std::endl;
+    std::cout << "The area of circle2 is " << circle2.calcArea() << std::endl;
+
+    return 0;
 }
